@@ -1,0 +1,28 @@
+.contact-p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: -5px 5px 4px rgba(66, 68, 90, 1);
+  }
+.contact textarea{
+    margin-bottom: 30px;
+  }
+.contact .form-group label{
+    font-weight: bold;
+    margin: 10px;
+  }
+.contact svg{
+    fill: #d9534f;
+    margin-right: 20px;
+  }
+.contact{
+    background-color: lightgrey;
+    margin-top: 25vh;
+  }
+  .form-group{
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 50px;
+  }

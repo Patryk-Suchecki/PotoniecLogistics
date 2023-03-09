@@ -1,0 +1,46 @@
+.popup {
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    width: 200px;
+    height: 60px;
+    background-color: #33cc66;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  
+  .popup.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin-animation {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    right: -350px;
+    animation: spin 22s linear infinite;
+  }
+  .rondo {
+    position: absolute;
+    top: 120%;
+    right: 0px;
+    width: 736px;
+    height: 736px;
+    overflow: hidden;
+  }

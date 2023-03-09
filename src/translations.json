@@ -1,0 +1,119 @@
+{
+  "english": {
+    "en": "English",
+    "pl": "Angielski"
+  },
+  "polish": {
+    "en": "Polish",
+    "pl": "Polski"
+  },
+  "contact": {
+    "en": "Contact",
+    "pl": "Kontakt"
+  },
+  "animation-header": {
+    "en": "Worldwide transportation services",
+    "pl": "Usługi transportowe na całym świecie"
+  },
+  "animation-description": {
+    "en": "You have a sudden unexpected transport? We are a team that can handle the worst situation, we will deliver the package to anywhere in the world.",
+    "pl": "Masz nagły nie spodziewany transport? Jesteśmy zespołem, który poradzi sobie w najgorszej sytuacji, dostarczymy paczkę do dowolnego miejsca na świecie."
+  },
+  "progressbar-clients-header": {
+    "en": "KEEPED CUSTOMERS",
+    "pl": "UTRZYMANI KLIENCI"
+  },
+  "progressbar-clients-description": {
+    "en": "Our customers appreciate our individual service and the care with which we approach each shipment",
+    "pl": "Nasi klienci cenią sobie naszą indywidualna obsługę oraz staranność, z jaka podchpdzomy do każdej przesyłki"
+  },
+  "progressbar-delivery-header": {
+    "en": "ON-TIME DELIVERIES",
+    "pl": "DOSTAWY NA CZAS"
+  },
+  "progressbar-delivery-description": {
+    "en": "Whether it's raining or the sun is shining, there's little that can stop us from delivering on time. Whenever.",
+    "pl": "Niezależnie od tego, czy pada deszcz, czy świeci słońce, niewiele może przeszkodzić nam w dostawie na czas. Za każdym razem."
+  },
+  "progressbar-packages-header": {
+    "en": "SHIPPING TO THIS TIME",
+    "pl": "WYSYŁEK DO TEJ PORY"
+  },
+  "progressbar-packages-description": {
+    "en": "We devote the same attention to each single shipment and do not lose focus on our client, promising what is unattainable.",
+    "pl": "Każdej pojedynczej przesyłce poświęcamy taką samą uwagę i nie tracimy koncentracji na naszym kliencie, obiecując to, co jest nieosiągalne."
+  },
+  "europe-header": {
+    "en": "Transport services throughout Europe!",
+    "pl": "Usługi transportowe na terenie całej europy!"
+  },
+  "europe-description": {
+    "en": "The same trusted, fast and professional service you are used to, but on a European scale. We are what all of Europe has been waiting for...",
+    "pl": "Ta sama zaufana, szybka i profesjonalna usługa, do której jesteś przyzwyczajony, ale na skalę całej europy. Jesteśmy tym, na co czekała cała europa..."
+  },
+  "form-header": {
+    "en": "When you call us, you can be sure that you will talk to… us.",
+    "pl": "Dzwoniąc do nas mają Państwo pewność, że porozmawiają z… nami."
+  },
+  "form-description": {
+    "en": "We do not employ consultants or external forwarders, which means that we can react quickly to emerging inquiries, as well as carry out non-standard orders. It's worth checking us out in action. It's worth trusting us. Feel free to contact us directly. We will be happy to answer your questions.",
+    "pl": "Nie zatrudniamy konsultantów oraz spedytorów zewnętrznych, co sprawia, że możemy reagować błyskawicznie na pojawiające się zapytania, jak i realizować niestandardowe zlecenia. Warto sprawdzić nas w działaniu. Warto nam zaufać. Zapraszamy do bezpośredniego kontaktu. Z przyjemnością odpowiemy na Państwa pytania."
+  },
+  "form-name": {
+    "en": "First name and last name:",
+    "pl": "Imię i nazwisko:"
+  },
+  "form-company": {
+    "en": "Company name:",
+    "pl": "Nazwa firmy:"
+  },
+  "form-telephone": {
+    "en": "Phone number:",
+    "pl": "Numer telefonu:"
+  },
+  "form-email": {
+    "en": "E-mail adress:",
+    "pl": "Adres e-mail:"
+  },
+  "form-notices": {
+    "en": "Your notices:",
+    "pl": "Twoje uwagi:"
+  },
+  "form-send": {
+    "en": "Send",
+    "pl": "Wyślij"
+  },
+  "message-send": {
+    "en": "Message sent!",
+    "pl": "Wiadomość wysłana!"
+  },
+  "telephone": {
+    "en": "Telephone:",
+    "pl": "Telefon:"
+  },
+  "click": {
+    "en": "Click!",
+    "pl": "Kliknij!"
+  },
+  "form-contact": {
+    "en": "Contact form:",
+    "pl": "Formularz kontaktowy:"
+  },
+  "navigation": {
+    "en": "Navigation",
+    "pl": "Nawigacja"
+  },
+  "aboutus": {
+    "en": "About us",
+    "pl": "O nas"
+    },
+  "doing": {
+    "en": "How are we doing",
+    "pl": "Jak działamy"
+  },
+  "home": {
+    "en": "Home",
+    "pl": "Strona główna"
+  }
+  
+}

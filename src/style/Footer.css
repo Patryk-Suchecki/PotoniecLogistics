@@ -1,0 +1,35 @@
+.footer{
+    margin-top: 7vh;
+}
+.footer-logo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.footer-information{
+    border-bottom: 4px solid #d9534f;
+}
+.footer-contact{
+    border-left: 4px solid #d9534f;
+    border-right: 4px solid #d9534f;
+}
+ul {
+    list-style-type: none;
+}
+ul li p p {
+    color: #d9534f;
+    display: inline;
+    }
+.footer a {
+    text-decoration: none;
+    color: #d9534f;
+  }
+  
+.footer-a:hover {
+    font-weight: bold;
+    color: #d9534f;
+  }
+.footer-a {
+    color: #d9534f;
+    display: inline;
+    }

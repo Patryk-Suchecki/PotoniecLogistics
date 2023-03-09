@@ -1,0 +1,166 @@
+.aboutus{
+  margin-top: 10vh;
+}
+.progressbars{
+    margin-top: 7vh;
+    border: 5px solid #e3e7e6;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .progressbars .pb-card{
+    margin: auto;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+  }
+  .progressbars .pb-card .percent{
+    position: relative;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .progressbars .pb-card .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+  }
+  .progressbars .pb-card .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #f2f2f2;
+    transform: translate(5px,5px);
+  }
+  .progressbars .pb-card .percent svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+  }
+  @keyframes fadeIn {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+    
+  }
+  .dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+  }
+  @keyframes animateDot {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(calc(3.6deg* var(--num)));
+    }
+  }
+  .dot::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr);
+  }
+  .number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+  }
+  .number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+  .number h2 span{
+    font-weight: 300;
+    font-size: 0.5em;
+  }
+  .pb-card h3{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .pb-card p{
+    margin-top: 40px;
+  }
+
+  .dot-animation {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    animation: dot-bounce 2s infinite;
+  }
+  
+  .dot-animation::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  @keyframes dot-bounce {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    65% {
+      transform: translateY(-10px);
+    }
+    80% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .dot-animation::before {
+    animation: dot-blink 2s infinite;
+  }
+  .dot-animation{
+    fill: #d9534f;
+    height: 96px;
+    width: 96px;
+  }
