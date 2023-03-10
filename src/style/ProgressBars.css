@@ -3,6 +3,7 @@
 }
 .progressbars{
     margin-top: 7vh;
+    background-color: white;
     border: 5px solid #e3e7e6;
     border-radius: 40px;
     position: relative;

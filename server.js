@@ -3,7 +3,9 @@
   const nodemailer = require('nodemailer');
   
   const app = express();
-
+  app.get('/', (req, res) => {
+    
+  });
   // Konfiguracja Nodemailer
   const transporter = nodemailer.createTransport({
     host: "poczta.int.pl",

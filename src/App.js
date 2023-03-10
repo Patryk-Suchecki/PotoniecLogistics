@@ -6,19 +6,23 @@ import Footer from './Footer';
 import EmailForm from './EmailForm';
 import { LanguageProvider } from './LanguageContext';
 
-import Rondo from './img/rondo.png';
+import Roundabout from './img/roundabout.png';
+import Road from './img/road.png';
 import './style/App.css';
 
 const App = () => {
   return (
     <div className="App">
       <LanguageProvider>
+        <div className="road">
+          <img src={Road} width="2706" height="3300" alt="Road"/>
+        </div>
         <Brand></Brand>
         <div className='container'>
           <Animation></Animation>
           <ProgressBars></ProgressBars>
-          <div className="rondo">
-            <img className="spin-animation" src={Rondo} alt="Rondo"/>
+          <div className="roundabout">
+            <img className="spin-animation" src={Roundabout} alt="Roundabout"/>
           </div>
           <EuropeSection></EuropeSection>
         </div>

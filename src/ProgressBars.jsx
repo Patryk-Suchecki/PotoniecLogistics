@@ -25,7 +25,7 @@ const ProgressBars = () => {
     return (
         <section>            
             <div className='mx-auto text-center aboutus'>
-                <h1>Jak działamy</h1>
+                <h1>{translate('how-are-we-doing')}</h1>
                 <svg className="dot-animation" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M480 711 240 471l43-43 197 198 197-197 43 43-240 239Z"/></svg>
             </div>
             <div className="progressbars">
