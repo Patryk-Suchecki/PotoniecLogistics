@@ -48,7 +48,6 @@
   .road {
     position: absolute;
     top: -550px;
-    left: 250px;
     width: 100%;
     z-index: -1;
     overflow: hidden;

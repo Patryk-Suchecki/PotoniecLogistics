@@ -48,7 +48,9 @@ function Brand() {
       <div className="empty"></div>
       <Navbar expand="lg" style={navbarStyle}>
           <Container>
-            <Navbar.Brand><img src={Logo} height="50" alt="Logo"/></Navbar.Brand>
+            <Navbar.Brand><img src={Logo} height="50" alt="Logo"/>
+              <p className='logo'>Setting standards</p>
+            </Navbar.Brand>
               <Nav className="ms-auto">
                 <NavDropdown title={<img src={language === 'en' ? English : Polish} height="50" alt="English"/>} id="basic-nav-dropdown">
                   <NavDropdown.Item onClick={() => handleLanguageChange({ target: { value: 'en' } })}><img src={English} height="50" alt="English"/> {translate('english')}</NavDropdown.Item>

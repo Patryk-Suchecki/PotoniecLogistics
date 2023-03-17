@@ -16,7 +16,7 @@
     "pl": "Możesz nam zaufać"
   },
   "animation-description": {
-    "en": "Potoniec Logistics is a transportation company that offers not only fast and secure deliveries but also comprehensive logistics services for your business. With our reliable fleet and experienced drivers, you can be sure that your shipments will arrive on time and in pristine condition. Join our satisfied customer base and test our services today!",
+    "en": "Potoniec Logistics is a transport company that offers not only fast and secure deliveries but also comprehensive logistics services for your business. With our reliable fleet and experienced drivers, you can be sure that your shipments will arrive on time and in pristine condition. Join our satisfied customer base and test our services today!",
     "pl": "Potoniec Logistics to firma przewozowa, która oferuje nie tylko szybkie i bezpieczne dostawy, ale także kompleksową obsługę logistyczną dla Twojego biznesu. Dzięki naszej niezawodnej flocie i doświadczonym kierowcom, możesz mieć pewność, że Twoje przesyłki dotrą na czas i w nienaruszonym stanie. Dołącz do grona zadowolonych klientów i przetestuj nasze usługi już dzisiaj!"
   },
   "progressbar-clients-header": {
@@ -32,8 +32,8 @@
     "pl": "PUNKTUALNE DOSTAWY"
   },
   "progressbar-delivery-description": {
-    "en": "No weather conditions or accidents prevent us from delivering on time.",
-    "pl": "Żadne warunki pogodowe i wypadki losowe nie powstrzymają nas przed terminową dostawą."
+    "en": "Our fleet of vehicles is maintained regularly which reduces the risk of unexpected issues. This helps us deliver your load on time!",
+    "pl": "Nasza flota pojazdów jest regularnie serwisowana, co zmniejsza ryzyko wystąpienia nieoczekiwanych problemów. Dzięki temu możemy dostarczyć Twój ładunek na czas!"
   },
   "progressbar-packages-header": {
     "en": "SHIPMENTS DELIVERED",
@@ -48,8 +48,8 @@
     "pl": "Usługi transportowe na terenie całej europy!"
   },
   "europe-description": {
-    "en": "The same trusted, fast and professional service you're used to, but with continent-wide coverage. We offer comprehensive transport and logistics services throughout Europe. Whatever your needs, Potoniec Logistics will never let you down.",
-    "pl": "Ta sama zaufana, szybka i profesjonalna usługa, do której jesteś przyzwyczajony, ale z zasięgiem działania na terenie całego kontynentu. Oferujemy kompleksowe usługi transportowe i logistyczne dla całej Europy. Niezależnie od twoich potrzeb, Potoniec Logistics nigdy cię nie zawiedzie."
+    "en": "Trusted, fast and professional service that you should get used to. We offer comprehensive transport and logistics services throughout Europe. Whatever your needs, Potoniec Logistics will never let you down.",
+    "pl": "Zaufana, szybka i profesjonalna usługa, do której możesz się przyzwyczaić. Oferujemy kompleksowe usługi transportowe i logistyczne dla całej Europy. Niezależnie od twoich potrzeb, Potoniec Logistics nigdy cię nie zawiedzie."
   },
   "form-header": {
     "en": "When you call us, you can be sure that you will talk to… us.",

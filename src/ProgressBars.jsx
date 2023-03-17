@@ -29,9 +29,9 @@ const ProgressBars = () => {
                 <svg className="dot-animation" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M480 711 240 471l43-43 197 198 197-197 43 43-240 239Z"/></svg>
             </div>
             <div className="progressbars">
-                <ProgressBar color="#d9544f" number="95" percent="90" name={translate('progressbar-clients-header')} description={translate('progressbar-clients-description')} type="%"></ProgressBar>
+                <ProgressBar color="#d9544f" number="99" percent="95" name={translate('progressbar-clients-header')} description={translate('progressbar-clients-description')} type="%"></ProgressBar>
                 <ProgressBar color="#d9544f" number="99" percent="95" name={translate('progressbar-delivery-header')} description={translate('progressbar-delivery-description')} type="%"></ProgressBar>
-                <ProgressBar color="#d9544f" number="2137" percent="50" name={translate('progressbar-packages-header')} description={translate('progressbar-packages-description')}></ProgressBar>
+                <ProgressBar color="#d9544f" number="213" percent="50" name={translate('progressbar-packages-header')} description={translate('progressbar-packages-description')}></ProgressBar>
             </div>
         </section>
         );
